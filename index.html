@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>My first Web Page</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <div id="container">
+      <div id="nav">
+        <a href="#footer">Scroll to footer</a> |
+        <a href="index.html">Home</a> |
+        <a href="about.html">About Us</a> |
+        <a href="contact.html">Contact Us</a>
+      </div>
+      <div id="content" class="container">
+        <h1 id="title" class="display-1">This is Index Page</h1>
+
+        <h1
+          style="
+            color: rgb(255, 79, 79);
+            font-family: Arial, Helvetica, sans-serif;
+            font-style: italic;
+          "
+        >
+          H1 Heading
+        </h1>
+        <h2 style="color: blue">H2 Heading</h2>
+        <h3 style="color: #0ea44a">H3 Heading</h3>
+        <h4>H4 Heading</h4>
+        <h5>H5 Heading</h5>
+        <h6>H6 Heading</h6>
+        <p>This is my first Web Page</p>
+        <p class="info">This is another p tage</p>
+        <p id="targetTag">This is another another p tage</p>
+
+        <a class="btn btn-warning" id="link1" target="_blank" href="https://www.amazon.in">Amazon</a>
+        <br/>
+        <button class="btn btn-primary" type="button" onclick="onClick()">Click Me!</button>
+        <button class="btn btn-danger" type="button" onclick="changeText()">Change p text!</button>
+        <button class="btn btn-dark" type="button" id="hideTitleBtn" onclick="hideTitle()">
+          Title toggle!
+        </button>
+      </div>
+      <div id="footer">
+        <footer id="footer">Footer Sample</footer>
+      </div>
+    </div>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+    <script src="js/index.js"></script>
+  </body>
+</html>

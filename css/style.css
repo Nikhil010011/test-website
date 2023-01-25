@@ -1,0 +1,50 @@
+p {
+    color: purple;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+}
+
+h1,h2,h3,h4,h5,h6 {
+    color: darkgoldenrod;
+}
+
+#footer {
+    color: orange;
+}
+
+#title {
+    text-decoration: underline;
+    background-color: wheat;
+}
+
+.info {
+    color: sandybrown;
+    font-style: italic;
+}
+
+.dp {
+    width: 200px;
+    height: 150px;
+}
+
+#staff-table {
+    width: 100%; 
+    text-align: center;
+    border-collapse: collapse;
+}
+
+#staff-table td, #staff-table th {
+    border: 1px solid gray;
+    padding: 5px;
+}
+
+#staff-table th {
+    background: #fff;
+    color: #000;
+}
+
+.subTitle {
+    text-decoration: dotted;
+    background-color: black;
+    color: white;
+}
