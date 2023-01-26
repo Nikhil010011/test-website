@@ -1,4 +1,4 @@
-alert('Page loaded, JS alert');
+// alert('Page loaded, JS alert');
 
 function onClick() {
     alert('I\'m Clicked')
